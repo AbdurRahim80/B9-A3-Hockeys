@@ -26,11 +26,47 @@
     <div class="font-manrope max-w-screen-lg mx-auto px-3">
 
         <head>
+            <!-- Start navbar here -->
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown lg:hidden">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Homepage</a></li>
+                      <li><a>Portfolio</a></li>
+                      <li><a>About</a></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h1 class="text-black text-2xl font-bold">Hockey <span class="text-[#FF4240]">'</span>s</h1>
+                </div>
+                </div>
+                <div class=" hidden lg:block">
+                    <ul class="flex gap-10">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Page</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact</a></li>
+                      </ul>
+                </div>
+                <div class="navbar-end">
+                  <button class="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                  </button>
+                  <button class=" text-sm lg:text-xl bg-red-600 p-2 font-bold rounded-lg text-white">
+                    Get Ticket
+                  </button>
+                </div>
+              </div>
             <!-- start bannar -->
-            <div class="carousel w-full pt-10">
+           <div class="lg:relative">
+            <div class="carousel w-full pt-10 ">
                 <div id="slide1" class="carousel-item relative w-full lg:h-[500px] h-[250px] ">
                     <img src="images/1.png" class="w-full rounded-2xl" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5  top-[85%]">
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-[38%] top-[70%] lg:left-5  lg:top-[85%]">
                         <a href="#slide3"
                             class="btn btn-circle hover:bg-slate-700 bg-slate-800 text-[white] border-none mr-2">❮</a>
                         <a href="#slide2"
@@ -39,7 +75,7 @@
                 </div>
                 <div id="slide2" class="carousel-item relative w-full lg:h-[500px] h-[250px]">
                     <img src="images/slide2.jpg" class="w-full rounded-2xl" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5   top-[85%]">
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-[38%] top-[70%] lg:left-5  lg:top-[85%]">
                         <a href="#slide1"
                             class="btn btn-circle hover:bg-slate-700 bg-slate-800 text-[white] border-none mr-2">❮</a>
                         <a href="#slide3"
@@ -48,7 +84,7 @@
                 </div>
                 <div id="slide3" class="carousel-item relative w-full lg:h-[500px] h-[250px]">
                     <img src="images/slide3.jpg" class="w-full rounded-2xl" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 lg:top-[85%] top-[85%]">
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-[38%] top-[70%] lg:left-5  lg:top-[85%] ">
                         <a href="#slide2"
                             class="btn btn-circle hover:bg-slate-700 bg-slate-800 text-[white] border-none mr-2">❮</a>
                         <a href="#slide1"
@@ -56,6 +92,12 @@
                     </div>
                 </div>
             </div>
+            <div class="bg-slate-800 p-4 max-w-lg rounded-lg lg:absolute lg:right-7 lg:top-[75%]">
+                <h1 class="text-white lg:text-2xl lg:font-semibold">Meet all the heroes from the field</h1>
+                <p class="text-slate-400 text-[12px] lg:text-sm">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+           </div>
+           
             <!-- end bannar -->
         </head>
         <main>
@@ -85,14 +127,14 @@
                             <div class="flex flex-col justify-center items-center text-center">
                                 <div class="radial-progress text-[#49D293] " style="--value:95;" role="progressbar">95%
                                 </div>
-                                <h3 class="text-[#131318] text-lg font-semibold">Prayer Facility</h3>
+                                <h3 class="text-[#131318] text-lg font-semibold">Experienced Coach</h3>
                                 <p class="text-sm font-[400] w-[80%] lg:w-[90%]">Amet consectetur. Condimentum dignissim
                                     adipiscing .</p>
                             </div>
                             <div class="flex flex-col justify-center items-center text-center">
                                 <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar">90%
                                 </div>
-                                <h3 class="text-[#131318] text-lg font-semibold">Prayer Facility</h3>
+                                <h3 class="text-[#131318] text-lg font-semibold">Senior Player</h3>
                                 <p class="text-sm font-[400] w-[80%] lg:w-[90%]">Amet consectetur. Condimentum dignissim
                                     adipiscing .</p>
                             </div>
@@ -348,7 +390,7 @@
                                 </div>
                                 <hr>
                                 <div class="collapse-content">
-                                    <p>hello</p>
+                                    <p>The type of stick you use depends on whether you’re playing defense or offense, but most players want at least one stick made from durable material like carbon fiber composite or wood laminate</p>
                                 </div>
                             </div>
                             <div class="collapse collapse-plus ">
@@ -357,17 +399,17 @@
                                     Hocheys Training
                                 </div>
                                 <div class="collapse-content">
-                                    <p>hello</p>
+                                    <p>HockeyTraining.com is the online authority in hockey-specific training. We help players improve their explosive speed, agility, conditioning, and skills on the ice through science-backed training methods.</p>
                                 </div>
                                 <hr>
                             </div>
                             <div class="collapse collapse-plus">
                                 <input type="radio" name="my-accordion-3" />
                                 <div class="collapse-title text-xl font-medium text-[#131318]">
-                                    Ski Touring
+                                    Private Lessons
                                 </div>
                                 <div class="collapse-content">
-                                    <p>hello</p>
+                                    <p>It should also be noted that an individual user can only purchase two tickets. </p>
                                 </div>
                                 <hr>
                             </div>
@@ -377,7 +419,7 @@
                                     Booking
                                 </div>
                                 <div class="collapse-content">
-                                    <p>hello</p>
+                                    <p>Touring is typically done off-piste and outside of ski resorts, and may extend over a period of more than one day. It is similar to backcountry skiing but excludes the use of a ski lift or transport.</p>
                                 </div>
                             </div>
                             <hr>
@@ -387,7 +429,7 @@
                                     Pricing
                                 </div>
                                 <div class="collapse-content">
-                                    <p>hello</p>
+                                    <p> We help players improve their explosive speed, agility, conditioning, and skills on the ice through science-backed training methods.</p>
                                 </div>
                                 <hr>
                             </div>
